@@ -1,17 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Someone's Blog</title>
-    <style>
-
-    </style>
-</head>
+    <title>我的个人主页</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
 <body>
-   Hello Blog!
+    <!-- 导航栏 -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">你找到我啦！</div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#hobbies">爱好</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- 主要内容 -->
+    <div class="container">
+        <!-- 个人介绍部分 -->
+        <section id="home" class="hero fade-in">
+            <img src="photo.png" alt="个人头像">
+            <h1>你好，我是千寻</h1>
+            <p>欢迎来到我的个人主页！</p>
+        </section>
+        
+        <!-- 关于我部分 -->
+        <section id="about" class="fade-in delay-1">
+            <h2 class="section-title fade-in">关于我</h2>
+            <div style="background-color: white; padding: 2rem; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                <p>我是一名学生，来自湖北省仙桃市。目前就读于SJTU，专业是电子信息（计算机系）。</p>
+                <p>MBTI类型是INFJ。</p>
+                <p>乐于欣赏凝聚人类创造力的任何作品，包括但不限于书籍、电影、番剧、综艺、游戏等。</p>
+                <p>个人创造力有待提升。</p>
+            </div>
+        </section>
+        
+        <!-- 爱好部分 -->
+        <section id="hobbies" class="hobbies fade-in delay-2">
+            <h2 class="section-title">我的爱好</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <h3>阅读</h3>
+                    <p>严肃文学和网络文学百无禁忌，比如《活着》、《天官赐福》。</p>
+                </div>
+                <div class="hobby-card">
+                    <h3>游戏</h3>
+                    <p>热衷于二次元RPG游戏，比如《原神》、《无限暖暖》。</p>
+                </div>
+                <div class="hobby-card">
+                    <h3>音乐</h3>
+                    <p>喜欢旋律优美的音乐，比如《Summer》、《雪之华》</p>
+                </div>
+                <div class="hobby-card">
+                    <h3>电影</h3>
+                    <p>喜欢科幻和悬疑推理类电影，比如《人工智能》、《星际穿越》、《消失的爱人》。</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 联系信息部分 -->
+        <section id="contact" class="contact fade-in delay-3">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>邮箱</h3>
+                    <p>thousanrance@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>社交媒体</h3>
+                    <p>小红书@千寻momo</p>
+                </div>
+                <div class="contact-item">
+                    <h3>GitHub</h3>
+                    <p>github.com/thousanrance</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2026 千寻的个人主页. 保留所有权利.</p>
+    </footer>
+    
+    <script src="script.js"></script>
 </body>
-<script type="text/javascript">
-
-</script>
 </html>
